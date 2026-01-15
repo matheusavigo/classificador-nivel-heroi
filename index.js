@@ -3,7 +3,6 @@ let quantidadeXp = 6543
 let nivel = ""
 
 // Classificador de nível de herói baseado na quantidade de XP
-
 if (quantidadeXp <= 1000) {
     nivel = "Ferro"
 } else if (quantidadeXp <= 2000) {
@@ -22,4 +21,5 @@ if (quantidadeXp <= 1000) {
     nivel = "Radiante"
 }
 
+// Exibe o nível do herói com base na quantidade de XP
 console.log("O Herói de nome " + nomeHeroi + " está no nível de " + nivel)
