@@ -1,21 +1,25 @@
-let nomeHeroi = "steve"
-let quantidadeXp = 900
+const nomeHeroi = "Steve"
+let quantidadeXp = 6543
 let nivel = ""
+
+// Classificador de nível de herói baseado na quantidade de XP
 
 if (quantidadeXp <= 1000) {
     nivel = "Ferro"
-} else if (quantidadeXp > 1000 && quantidadeXp <= 2000) {
+} else if (quantidadeXp <= 2000) {
     nivel = "Bronze"
-} else if (quantidadeXp > 2000 && quantidadeXp <= 5000) {
+} else if (quantidadeXp <= 5000) {
     nivel = "Prata"
-} else if (quantidadeXp > 5000 && quantidadeXp <= 7000) {
+} else if (quantidadeXp <= 7000) {
     nivel = "Ouro"
-} else if (quantidadeXp > 7000 && quantidadeXp <= 8000) {
+} else if (quantidadeXp <= 8000) {
     nivel = "Platina"
-} else if (quantidadeXp > 8000 && quantidadeXp <= 9000) {
+} else if (quantidadeXp <= 9000) {
     nivel = "Ascendente"
-} else if (quantidadeXp > 9000 && quantidadeXp <= 10000) {
+} else if (quantidadeXp <= 10000) {
     nivel = "Imortal"
 } else {
     nivel = "Radiante"
 }
+
+console.log("O Herói de nome " + nomeHeroi + " está no nível de " + nivel)
